@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="show_hide.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h1>Let's play Hide and Seek </h1>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi libero numquam repellat voluptatibus
+      dicta voluptatum dolores deleniti officia rem ipsam voluptate qui sunt, dignissimos nostrum vel laudantium ullam
+      velit itaque et similique unde repellendus. Iure laborum quod possimus deleniti?Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Quam modi libero numquam repellat voluptatibus dicta voluptatum dolores deleniti
+      officia rem ipsam voluptate qui sunt, dignissimos nostrum vel laudantium ullam velit itaque et similique unde
+      repellendus. Iure laborum quod possimus deleniti?
+    </p>
+
+    <button onclick="hide()" id="hide">Hide</button>
+    <button onclick="show()" id="show">Show</button>
+
+
+
+
+
+    <script>
+
+      let btn1 = document.getElementById("hide")
+      let btn2 = document.getElementById("show")
+      let para = document.getElementById("para")
+
+      function hide() {
+        para.innerHTML = ""
+      }
+
+      function show() {
+        para.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi libero numquam repellat voluptatibus dicta voluptatum dolores deleniti officia rem ipsam voluptate qui sunt, dignissimos nostrum vel laudantium ullam velit itaque et similique unde repellendus. Iure laborum quod possimus deleniti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi libero numquam repellat voluptatibus dicta voluptatum dolores deleniti officia rem ipsam voluptate qui sunt, dignissimos nostrum vel laudantium ullam velit itaque et similique unde repellendus. Iure laborum quod possimus deleniti?"
+      }
+    </script>
+  </div>
+</body>
+
+</html>
